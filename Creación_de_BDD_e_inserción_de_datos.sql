@@ -112,3 +112,10 @@ INSERT INTO detalle_pedido (id_pedido, id_producto, cantidad, precio_historico, 
 
 -- Pedido 4
 (4, 4, 1, 6500.00, 'Cliente se retiró por la demora en la cocina');
+
+UPDATE Producto
+SET precio_actual = 7800.00
+WHERE id = 2; 
+
+DELETE FROM Mozo 
+WHERE id = 2;
