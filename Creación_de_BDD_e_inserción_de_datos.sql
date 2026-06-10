@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS detalle_pedido (
     FOREIGN KEY (id_producto) REFERENCES Producto(id),
     cantidad INT NOT NULL,
     precio_historico DECIMAL(10,2) NOT NULL,
-    observacion VARCHAR(255),
+    observacion VARCHAR(200),
     
     PRIMARY KEY (id_pedido, id_producto)
 );
