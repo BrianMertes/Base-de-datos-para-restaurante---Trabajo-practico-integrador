@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS Producto (
     nombre VARCHAR(50) NOT NULL,
     descripcion VARCHAR(200),
     precio_actual DECIMAL(10,2) NOT NULL,
-    categoria VARCHAR(50) NOT NULL
+    categoria VARCHAR(50)
 );
 
 CREATE TABLE IF NOT EXISTS Pedido (
